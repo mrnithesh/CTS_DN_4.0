@@ -1,18 +1,30 @@
-## Getting Started
+# Factory Method Pattern Example
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple Java project demonstrating the Factory Method design pattern using Document creation.
 
-## Folder Structure
+## Overview
 
-The workspace contains two folders by default, where:
+The Factory Method pattern defines an interface for creating objects but lets subclasses decide which class to instantiate. This is particularly useful for:
+- Delegating object creation to subclasses
+- Decoupling object creation from its usage
+- Making code more flexible and extensible
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Implementation
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+The project uses:
+- `Document` interface as the product
+- Concrete documents (`PDFDocument`, `WordDocument`, `ExcelDocument`)
+- `DocumentFactory` interface for creating documents
+- Concrete factories for each document type
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Example output when creating different documents:
+```
+Creating a PDF Document...
+PDF Document created successfully.
 
-## Dependency Management
+Creating a Word Document...
+Word Document created successfully.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Creating an Excel Document...
+Excel Document created successfully.
+```
