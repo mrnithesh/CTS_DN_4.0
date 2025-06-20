@@ -43,7 +43,7 @@ public class App {
         new Product(12, "Ooty Apple", "Fruits"),
         new Product(19, "KitKat", "Chocoloates")
         };
-
+        System.out.println("Linear Search");
         Product pr1 = LinearSearch(products,12);
         if (pr1!= null){
             System.out.println("Product found!");
@@ -53,6 +53,7 @@ public class App {
             System.out.println("Product not found");
         }
 
+        System.out.println("Binary Search");
         Product pr2 = BinarySearch(products,19);
         if (pr2!= null){
             System.out.println("Product found!");

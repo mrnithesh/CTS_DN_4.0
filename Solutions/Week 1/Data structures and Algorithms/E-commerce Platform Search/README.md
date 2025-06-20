@@ -5,40 +5,49 @@ This project implements and compares search algorithms for an e-commerce platfor
 ## Features
 
 - Product class with attributes:
+
   - productID
   - productName
   - category
-
 - Search Implementations:
+
   - Linear Search (O(n)) - Completed
   - Binary Search (O(log n)) - Completed
 
 
- ### Understand Asymptotic Notation:
-   - *Big O Notation*: Big O notation is a mathematical representation used to describe the upper bound of an algorithm's running time or space requirements in terms of input size (n). It helps in analyzing and comparing the efficiency of algorithms by focusing on their growth rates as the input size increases, abstracting away constant factors and lower-order terms.
-   - *Best, Average, and Worst-Case Scenarios for Search Operations:*
-       - *Best Case:* The scenario where the algorithm performs the minimum possible number of operations (e.g., finding the target element at the first position).
-      - *Average Case:* The expected number of operations performed, averaged over all possible inputs or positions of the target element.
-      - *Worst Case:* The scenario where the algorithm performs the maximum possible number of operations (e.g., the target element is at the last position or not present at all).
+## Output
+![output](output.png) 
 
+### Understand Asymptotic Notation:
+
+- *Big O Notation*: Big O notation is a mathematical representation used to describe the upper bound of an algorithm's running time or space requirements in terms of input size (n). It helps in analyzing and comparing the efficiency of algorithms by focusing on their growth rates as the input size increases, abstracting away constant factors and lower-order terms.
+- *Best, Average, and Worst-Case Scenarios for Search Operations:*
+  - *Best Case:* The scenario where the algorithm performs the minimum possible number of operations (e.g., finding the target element at the first position).
+  - *Average Case:* The expected number of operations performed, averaged over all possible inputs or positions of the target element.
+  - *Worst Case:* The scenario where the algorithm performs the maximum possible number of operations (e.g., the target element is at the last position or not present at all).
 
 ## Time Complexity Analysis
 
 ### Linear Search
+
 - Best Case: O(1) - Target found at first position
 - Average Case: O(n) - Target found in middle
 - Worst Case: O(n) - Target at end or not found
 
 ### Binary Search
-- Best Case: O(1) - Target found at middle 
+
+- Best Case: O(1) - Target found at middle
 - Average Case: O(log n) - Target found in middle
 - Worst Case: O(log n) - Target not found or at ends
 
 ## Test Cases
+
 The program includes sample products across different categories:
+
 - Electronics (Apple Watch)
 - Fruits (Ooty Apple)
 - Chocolates (KitKat)
+
 
 ## WHich Search Algorithm is More Suitable for E-commerce Platform?
 

@@ -11,6 +11,9 @@ Given a current investment amount and a fixed annual growth rate, forecast the v
 Future Value = currentValue * (1 + growthRate)^years
 ```
 
+## Output
+![output](output.png)
+
 ## Understanding Recursion
 
 Recursion is a programming concept where a function calls itself to solve a problem by breaking it down into smaller, similar sub-problems. In this project, we use recursion to calculate compound growth over multiple years by:

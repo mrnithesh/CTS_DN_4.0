@@ -13,3 +13,6 @@ The Singleton pattern ensures that a class has only one instance and provides a 
 
 The project contains a `Logger` class that implements the Singleton pattern, ensuring only one logger instance exists throughout the application's lifecycle.
 
+## Output
+
+![output](output.png)
