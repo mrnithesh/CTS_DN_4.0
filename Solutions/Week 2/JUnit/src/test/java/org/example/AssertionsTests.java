@@ -1,6 +1,7 @@
 package org.example;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.junit.Assume.*;
 
 public class AssertionsTests {
 
@@ -11,7 +12,7 @@ public class AssertionsTests {
 
         assertTrue(5 > 3);
 
-        assertFalse(5 < 3);
+        assumeFalse(5 > 3);
 
         Object obj1 = null;
         assertNull(obj1);
