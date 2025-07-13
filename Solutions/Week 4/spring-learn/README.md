@@ -39,3 +39,8 @@
 
 **Output**: ![Screenshot](rest-exercise5.png)
 ---
+
+## JWT Authentication
+**Objective**: Implement JWT authentication in a Spring Boot application.
+
+**Output**: ![Screenshot](jwt.png)
