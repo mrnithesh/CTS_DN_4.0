@@ -1,7 +1,7 @@
 package org.example;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import static org.junit.Assume.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assumptions.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class AssertionsTests {
 
@@ -12,7 +12,7 @@ public class AssertionsTests {
 
         assertTrue(5 > 3);
 
-        assumeFalse(5 > 3);
+        assumeFalse(5 < 3);
 
         Object obj1 = null;
         assertNull(obj1);

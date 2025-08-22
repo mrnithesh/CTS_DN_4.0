@@ -43,3 +43,18 @@ This project demonstrates the implementation of JUnit testing concepts through a
 - `src/test/java/org/example/CalculatorTestAAA.java` - AAA pattern implementation with lifecycle methods
 
 **Output**: ![Screenshot](exercise4.png)
+
+### Advanced Exercise 1: Parameterized Tests
+
+**Files Created**:
+- `src/main/java/org/example/EvenChecker.java`
+- `src/test/java/org/example/EvenCheckerTest.java`
+
+**Output**: ![](ad-ex1.png)
+
+### Advanced Exercise 2: Test Suites and Categories
+
+**Files Created**:
+- `src/test/java/org/example/AllTests.java`
+
+**Output**: ![](ad-ex2.png)

@@ -1,6 +1,6 @@
 package org.example;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculatorTest {
 
@@ -26,8 +26,10 @@ public class CalculatorTest {
         assertEquals(2, calc.divide(6, 3));
     }
 
-    @Test(expected = IllegalArgumentException.class)
-    public void testDivideByZero() {
-        calc.divide(5, 0);
+    @Test
+    void testDivideByZero() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            calc.divide(5, 0);
+        });
     }
 }
